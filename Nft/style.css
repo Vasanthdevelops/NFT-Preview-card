@@ -1,0 +1,80 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+            /* main card - div */
+.main-card{
+    background-color: hsl(217, 54%, 11%);
+}
+
+      /* Font properties start */
+.card-2{
+    font-family: "Outfit", sans-serif;
+    font-size: 18px;
+    font-style: normal;  
+    margin-top:200px;  
+    background-color:hsl(215, 90%, 12%);
+    padding: 50px;
+}
+
+    /* Img start */
+.card-2 img{
+border-radius: 12px;
+margin-bottom: 20px;
+}
+        /* h2 start */
+.card-2 h2{
+    margin-top: 10px;
+    color:hsl(0, 0%, 100%);
+    margin-bottom: 20px;
+}
+        /* paragraph */
+.card-2>p{
+    color: hsl(215, 51%, 70%);
+}
+
+/* cards start */
+.one{
+color:hsl(178, 100%, 50%);
+}
+.two{
+    color:hsl(215, 51%, 70%);
+}
+
+.cards>hr{
+    color:hsl(215, 32%, 27%);
+}
+
+.wrapper{
+    display: flex;
+    gap:30px;
+}
+.wrapper>div>span:first-child{
+    color:hsl(215, 51%, 70%);
+}
+
+.wrapper>div>span:nth-child(2){
+    color:hsl(0, 0%, 100%);
+}
+
+.card-2>p>span:last-child{
+      display: block;
+}
+
+.card-2>p>span{
+    font-size: 35px;
+}
+
+.three{
+    color:hsl(215, 51%, 70%);
+}
+
+.four{
+    color:white;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-between;
+}
